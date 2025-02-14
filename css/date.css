@@ -1,0 +1,55 @@
+body {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "IM Fell DW Pica";
+  background-color: #b59b7c;
+  color: rgb(87, 66, 39);
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  font-size: 40px;
+}
+
+
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.button {
+  padding: 6px 10px;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 10px;
+  font-family: "courier";
+  margin-bottom: 10px;
+  background-color:  #b59b7c;
+  color: rgb(87, 66, 39);
+  border-radius: 12px;
+  border: 2px solid black;
+  transition: 0.3s;
+  margin-top: 25px;
+}
+
+.button:hover {
+  background-color: rgb(87, 66, 39);
+  color: #fff;
+  border: 2px solid #b59b7c;
+}
+
+input[type="date"] {
+  padding: 6px 10px;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 10px;
+  font-family: "courier";
+  margin-bottom: 10px;
+  background-color: #b59b7c;
+  color: rgb(87, 66, 39);
+  border-radius: 12px;
+  border: 2px solid black;
+}
